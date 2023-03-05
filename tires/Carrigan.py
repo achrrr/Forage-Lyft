@@ -9,7 +9,6 @@ class Carrigan(Tire):
     def needs_service(self) -> bool:
 
         a:bool = False
-
         for n in self.tire_data:
             if n >= 0.9:
                 a = True
